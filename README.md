@@ -13,5 +13,5 @@ In your grow project:
 
 ```sh
 
-docker run -it --rm -v $(pwd):/var/grow -p 8080:8080 stevenle/grow run .
+docker run -it --rm -v $(pwd):/var/grow -p 8080:8080 stevenle/grow run --host=0.0.0.0 .
 ```
